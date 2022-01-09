@@ -1,7 +1,13 @@
 :root {
   --heading-font-family: "Montserrat", sans-serif;
   --main-font-family: "K2D", sans-serif;
-  --branding-colour: #f6837b;
+  --accent-colour: #f6837b;
+  --background-colour: #d4f1ff;
+  --background-accent: #add5e9;
+}
+
+body {
+  background: var(--background-colour);
 }
 
 h1 {
@@ -47,15 +53,17 @@ h3 {
   text-decoration: none;
   font-family: var(--heading-font-family);
   font-weight: 500;
-  background: var(--branding-colour);
+  background: var(--accent-colour);
 }
 
 .homepage-skills {
-  max-width: 60%;
+  max-width: 80%;
 }
 
 .skills {
-  margin: 30px;
+  margin: 40px 270px;
+  background: var(--background-accent);
+  border-radius: 8px;
 }
 
 .skill-icons {
