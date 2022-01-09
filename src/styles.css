@@ -1,8 +1,50 @@
-h1 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: bold;
+:root {
+  --heading-font-family: "Montserrat", sans-serif;
+  --main-font-family: "K2D", sans-serif;
+  --branding-colour: #f6837b;
 }
 
-p {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+h1 {
+  font-family: var(--heading-font-family);
+  font-size: 85px;
+  font-weight: 600;
+}
+
+h2,
+h3 {
+  font-family: var(--main-font-family);
+}
+
+.hero {
+  text-align: center;
+  padding: 20px;
+}
+
+.hero h1 {
+  margin: 20px;
+}
+
+.hero h2 {
+  font-size: 45px;
+  font-weight: 400;
+}
+
+.hero h3 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.hero-links {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-branding {
+  margin: 30px;
+  border-radius: 4px;
+  padding: 15px;
+  text-decoration: none;
+  font-family: var(--heading-font-family);
+  font-weight: 400;
+  background: var(--branding-colour);
 }
