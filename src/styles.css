@@ -15,21 +15,22 @@ h3 {
   font-family: var(--main-font-family);
 }
 
-.hero {
+.hero,
+.skills {
   text-align: center;
   padding: 20px;
 }
 
-.hero h1 {
+h1 {
   margin: 20px;
 }
 
-.hero h2 {
+h2 {
   font-size: 45px;
   font-weight: 400;
 }
 
-.hero h3 {
+h3 {
   font-size: 30px;
   font-weight: 400;
 }
@@ -47,4 +48,16 @@ h3 {
   font-family: var(--heading-font-family);
   font-weight: 500;
   background: var(--branding-colour);
+}
+
+.homepage-skills {
+  max-width: 60%;
+}
+
+.skills {
+  margin: 30px;
+}
+
+.skill-icons {
+  padding: 30px;
 }
