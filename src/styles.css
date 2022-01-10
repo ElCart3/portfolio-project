@@ -1,7 +1,7 @@
 :root {
-  --heading-font-family: "Montserrat", sans-serif;
-  --main-font-family: "K2D", sans-serif;
-  --accent-colour: #f6837b;
+  --heading-font-family: "Sansita", sans-serif;
+  --main-font-family: "Signika", sans-serif;
+  --accent-colour: #f57e7e;
   --background-colour: #d4f1ff;
   --background-accent: #add5e9;
 }
@@ -12,13 +12,13 @@ body {
 
 h1 {
   font-family: var(--heading-font-family);
-  font-size: 70px;
+  font-size: 80px;
   font-weight: 600;
-  margin: 20px;
+  margin: 10px;
 }
 
 h2 {
-  font-size: 45px;
+  font-size: 40px;
 }
 
 h3 {
@@ -65,7 +65,7 @@ p {
   border-radius: 4px;
   padding: 15px;
   text-decoration: none;
-  font-family: var(--heading-font-family);
+  font-family: var(--main-font-family);
   font-weight: 500;
   background: var(--accent-colour);
 }
@@ -76,7 +76,7 @@ p {
 
 @media (max-width: 700px) {
   h1 {
-    font-size: 60px;
+    font-size: 70px;
   }
 }
 
