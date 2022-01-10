@@ -12,13 +12,27 @@ body {
 
 h1 {
   font-family: var(--heading-font-family);
-  font-size: 85px;
+  font-size: 70px;
   font-weight: 600;
+  margin: 20px;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+h3 {
+  font-size: 30px;
 }
 
 h2,
 h3 {
   font-family: var(--main-font-family);
+  font-weight: 400;
+}
+
+p {
+  font-size: 20px;
 }
 
 .hero,
@@ -27,23 +41,23 @@ h3 {
   padding: 20px;
 }
 
-h1 {
-  margin: 20px;
-}
-
-h2 {
-  font-size: 45px;
-  font-weight: 400;
-}
-
-h3 {
-  font-size: 30px;
-  font-weight: 400;
+.skills {
+  margin: 40px;
+  background: var(--background-accent);
+  border-radius: 8px;
 }
 
 .hero-links {
   display: flex;
   justify-content: center;
+}
+
+.homepage-skills {
+  max-width: 80%;
+}
+
+.skill-icons {
+  padding: 30px;
 }
 
 .btn-branding {
@@ -56,16 +70,19 @@ h3 {
   background: var(--accent-colour);
 }
 
-.homepage-skills {
-  max-width: 80%;
-}
-
-.skills {
-  margin: 40px 270px;
+.inquiries {
   background: var(--background-accent);
-  border-radius: 8px;
 }
 
-.skill-icons {
-  padding: 30px;
+@media (max-width: 700px) {
+  h1 {
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .skills {
+    max-width: 900px;
+    margin: 40px auto;
+  }
 }
