@@ -15,6 +15,7 @@ h1 {
   font-size: 80px;
   font-weight: 600;
   margin: 10px;
+  text-align: center;
 }
 
 h2 {
@@ -76,6 +77,12 @@ p {
 
 .headshot {
   max-width: 500px;
+}
+
+.work h1,
+h2,
+h3 {
+  text-align: center;
 }
 
 @media (max-width: 700px) {
