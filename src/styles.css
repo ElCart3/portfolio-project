@@ -74,6 +74,10 @@ p {
   background: var(--background-accent);
 }
 
+.headshot {
+  max-width: 500px;
+}
+
 @media (max-width: 700px) {
   h1 {
     font-size: 70px;
