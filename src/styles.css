@@ -85,12 +85,13 @@ p {
 
 .contact-links {
   text-align: center;
+  margin: 40px;
 }
 
 .contact-links p {
   font-family: var(--main-font-family);
   font-size: 25px;
-  margin: 20px;
+  margin-bottom: 30px;
 }
 
 .contact-links a {
