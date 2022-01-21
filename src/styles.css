@@ -6,7 +6,8 @@
   --background-accent: #add5e9;
 }
 
-body {
+body,
+.bg-branding {
   background: var(--background-colour);
 }
 
