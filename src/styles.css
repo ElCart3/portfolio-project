@@ -95,6 +95,7 @@ p {
 
 .btn-branding:hover {
   background: var(--accent-colour);
+  box-shadow: 5px 5px 8px var(--background-accent);
   transition: all 100ms ease-in-out;
 }
 
@@ -129,7 +130,17 @@ p {
 }
 
 .contact-links a {
+  text-decoration: none;
   color: var(--accent-colour);
+}
+
+.contact-links a:hover {
+  text-decoration: underline;
+}
+
+.fa-envelope,
+.fa-github {
+  font-size: 50px;
 }
 
 footer {
@@ -148,7 +159,12 @@ footer {
 }
 
 .footer-links li a {
+  text-decoration: none;
   color: var(--accent-colour);
+}
+
+.footer-links li a:hover {
+  text-decoration: underline;
 }
 
 .footer-links .link-break {
