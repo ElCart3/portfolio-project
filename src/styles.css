@@ -110,6 +110,7 @@ p {
 
 .inquiries p {
   margin: 0px;
+  font-family: var(--main-font-family);
 }
 
 .headshot {
@@ -128,12 +129,30 @@ p {
 }
 
 .contact-links a {
-  text-decoration: none;
-  color: black;
+  color: var(--accent-colour);
 }
 
 footer {
   padding: 10px;
+}
+
+.footer-links ul {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links li {
+  list-style-type: none;
+  display: inline;
+  font-family: var(--main-font-family);
+}
+
+.footer-links li a {
+  color: var(--accent-colour);
+}
+
+.footer-links .link-break {
+  margin: 0 5px;
 }
 
 @media (max-width: 700px) {
