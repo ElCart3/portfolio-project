@@ -11,16 +11,35 @@ body,
   background: var(--background-colour);
 }
 
+nav .navbar-brand {
+  font-family: var(--heading-font-family);
+  font-size: 30px;
+  font-weight: 600;
+  margin-right: 60px;
+}
+
+nav .nav-item {
+  font-family: var(--main-font-family);
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 10px;
+  margin: 10px;
+}
+
+.active {
+  color: var(--accent-colour) !important;
+}
+
 h1 {
   font-family: var(--heading-font-family);
-  font-size: 80px;
+  font-size: 90px;
   font-weight: 600;
   margin: 10px;
   text-align: center;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 45px;
 }
 
 h3 {
@@ -34,7 +53,7 @@ h3 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .hero,
@@ -63,25 +82,38 @@ p {
 }
 
 .btn-branding {
-  margin: 30px;
-  border-radius: 4px;
-  padding: 15px;
+  margin: 20px;
+  border-radius: 6px;
+  padding: 18px 20px;
+  font-size: 20px;
   text-decoration: none;
   font-family: var(--main-font-family);
   font-weight: 500;
+  border: 3px solid var(--accent-colour);
+  color: var(--accent-colour);
+}
+
+.btn-branding:hover {
   background: var(--accent-colour);
+  transition: all 100ms ease-in-out;
+}
+
+.homepage-portfolio {
+  margin: 40px 0px;
 }
 
 .inquiries {
   background: var(--background-accent);
+  padding: 30px 10px;
+  border-radius: 8px;
+}
+
+.inquiries p {
+  margin: 0px;
 }
 
 .headshot {
   max-width: 500px;
-}
-
-.projects {
-  margin-top: 40px;
 }
 
 .contact-links {
@@ -100,6 +132,10 @@ p {
   color: black;
 }
 
+footer {
+  padding: 10px;
+}
+
 @media (max-width: 700px) {
   h1 {
     font-size: 70px;
@@ -110,5 +146,15 @@ p {
   .skills {
     max-width: 900px;
     margin: 40px auto;
+  }
+}
+
+@media (max-width: 1000px) {
+  .inquiries {
+    padding: 30px 60px;
+  }
+
+  .inquiries h2 {
+    font-size: 30px;
   }
 }
