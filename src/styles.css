@@ -11,31 +11,6 @@ body {
   font-family: var(--main-font-family);
 }
 
-.bg-branding {
-  background: var(--background-accent);
-}
-
-.navbar {
-  padding: 0;
-}
-
-nav .navbar-brand {
-  font-family: var(--heading-font-family);
-  font-size: 30px;
-  font-weight: 600;
-}
-
-nav .nav-item {
-  font-family: var(--main-font-family);
-  font-size: 20px;
-  font-weight: 600;
-  margin: 10px;
-}
-
-.active {
-  color: var(--accent-colour) !important;
-}
-
 h1 {
   font-family: var(--heading-font-family);
   font-size: 80px;
@@ -56,6 +31,35 @@ h3 {
 
 p {
   font-size: 25px;
+}
+
+footer {
+  padding: 10px;
+}
+
+nav .navbar-brand {
+  font-family: var(--heading-font-family);
+  font-size: 30px;
+  font-weight: 600;
+}
+
+nav .nav-item {
+  font-family: var(--main-font-family);
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px;
+}
+
+.bg-branding {
+  background: var(--background-accent);
+}
+
+.navbar {
+  padding: 0;
+}
+
+.active {
+  color: var(--accent-colour) !important;
 }
 
 .hero,
@@ -144,10 +148,6 @@ p {
 .fa-envelope,
 .fa-github {
   font-size: 50px;
-}
-
-footer {
-  padding: 10px;
 }
 
 .footer-links ul {
